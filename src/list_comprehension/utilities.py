@@ -3,6 +3,6 @@ def build_tile_1d(x):
 
 
 def build_tile_2d(x, y):
-  return 'tile ' + str(x) + ',' + str(y)
+  return 'tile ' + str(x) + '-' + str(y)
 
 
