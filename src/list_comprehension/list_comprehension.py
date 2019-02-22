@@ -106,3 +106,11 @@ tiles = [[build_tile_2d(x, y) for y in range(2)] for x in range(2)]
 
 print("\n=== Build 2 dimensional array with nested list comprehensions. ===\n")
 print(tiles)
+
+"""
+So we have now an array of arrays built in a single statement.
+
+An important note. Python doesn't actually have arrays. Python only has 
+lists. So although I have been talking about arrays, these are 
+called lists.
+"""
