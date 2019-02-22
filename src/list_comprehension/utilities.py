@@ -1,8 +1,8 @@
-def build1DTile(x):
-  return 'tile num ' + str(x)
+def build_tile_1d(x):
+  return 'tile ' + str(x)
 
 
-def build2DTile(x, y):
-  return 'tile num ' + str(x) + ',' + str(y)
+def build_tile_2d(x, y):
+  return 'tile ' + str(x) + ',' + str(y)
 
 
