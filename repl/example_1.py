@@ -1,3 +1,12 @@
+"""
+Baseline example of reading and writing to the CLI.
+
+This program only reads from the console once, and does what
+you tell it to and then exits. Not very useful, typically we'd
+just use flags for this instead of prompting the user for an
+input.
+"""
+
 # describe available commands
 print("== COMMANDS ==")
 print("hello -> say hello")
